@@ -25,22 +25,22 @@ In this project you'll take take an almost completed e-commerce store and refact
 - [x] Run `npm install node-sass` or `yarn add node-sass` inside your workspace
 - [x] Start up the app using `npm start`.
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: MVP
 
-Before you get started, please take a few minutes and get acquainted with this application. Understand what's going on and how it's working.
+X Before you get started, please take a few minutes and get acquainted with this application. Understand what's going on and how it's working.
 
-- If you look in the `App.js` you'll notice there are currently two state properties - `products` to keep track of all available products, and `cart` that will keep track of all the items in our `cart`.
+X - If you look in the `App.js` you'll notice there are currently two state properties - `products` to keep track of all available products, and `cart` that will keep track of all the items in our `cart`.
 
-- You'll also notice inside of our `App.js` we have 3 components. A navigation component and two route based components. Each of those components are all being passed either our `cart` state or `product` state as props, when we start to scale our application and add more props our codebase is going to start to become very cumbersome and will make our application hard to work with.
+X - You'll also notice inside of our `App.js` we have 3 components. A navigation component and two route based components. Each of those components are all being passed either our `cart` state or `product` state as props, when we start to scale our application and add more props our codebase is going to start to become very cumbersome and will make our application hard to work with.
 
-- To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more effiecent to access data across our application.
+X - To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more effiecent to access data across our application.
 
 **Step 1 - Add item functionality**
 
-- In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
+X - In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
 
 **STEP 2 - Creating ProductContext**
 
